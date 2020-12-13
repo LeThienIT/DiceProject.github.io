@@ -315,7 +315,7 @@ public class Controller implements Initializable, Click {
         });
     }
 
-    // bắt sự kiện cho nút ClickLoad
+    // bắt sự kiện ClickLoad
     @Override
     public void ClickLoad() {
         btnLoad.setOnAction(new EventHandler<ActionEvent>() {
